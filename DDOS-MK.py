@@ -9,7 +9,7 @@ import time
 ###### MESSAGE MIKA ON TOP! #####
 os.system("clear")
 os.system("xdg-open https://discord.gg/8gmRVnRRwV")
-print("\u001b[35m Welcome to SAMP-MK World")
+print("\u001b[35m Welcome to ANUNAK World")
 time.sleep(2)
 print("Loading.......")
 os.system("clear")
@@ -22,8 +22,8 @@ while attemps < 100:
     username = input('Enter your username: ')
     password = input('Enter your password: ')
 
-    if username == 'DIGA' and password == 'DIGA':
-        print('You have successfully logged in Welcome to MK!!')
+    if username == 'SHANKS' and password == 'SHANKS':
+        print('You have successfully logged in Welcome to AN!!')
         break
     else:
         print('Incorrect credentials. Check if you have Caps lock on and try again.')
@@ -33,10 +33,13 @@ os.system("clear")
 
 print("""
 \u001b[35m
-	  AUTHOR TOOLS : DIGA
-        ╔═╗╔═╗╔╦╗╔═╗   
-	╚═╗╠═╣║║║╠═╝──
-	╚═╝╩ ╩╩ ╩╩      V 1.5
+	  AUTHOR TOOLS : SHANKS
+        _____ _                _        
+ / ____| |              | |       
+| (___ | |__   __ _ _ __| | _____ 
+ \___ \| '_ \ / _` | '__| |/ / __|
+ ____) | | | | (_| | |  |   <\__ \
+|_____/|_| |_|\__,_|_|  |_|\_\___/V 1.5
 """)
 
 ip = str(input(" Target IP :"))
